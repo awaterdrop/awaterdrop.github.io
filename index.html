@@ -8,24 +8,52 @@
     <title>awaterdrop's Blog</title>
 </head>
 <body>
-    <h1>Hello World! This web page is awaterdrop's page.</h1>
+    <header class="page-header">
+        <h1>Hello World! This web page is awaterdrop's page.</h1>
+    </header>
 
-    <div>
-        <aside>
-            <p>This is the left aside</p>
-        </aside>
-    </div>
-    <div>
-        <aside>
-            <p>This is the right aside</p>
-        </aside>
-    </div>
-    <div>
-        <footer>
-            <p>2021 apache license 2.0</p>
-        </footer>
-    </div>
+    <aside>
+        <p>This is the left aside</p>
+    </aside>
+
+    <main>
+        <section class="project-summary-list">
+            <article class="project-summary">
+                <h2>Project Name</h2>
+                <p>A brief description of the project.</p>
+                <article class="tag-list">
+                    <button class="tag" type="button">
+                        Arduino
+                    </button>
+                </article>
+                <footer class="project-summary-footer">
+                    <p>init date, update date, github link</p>
+                </footer>
+            </article>
+
+            <article class="project-summary">
+                <h2>Project Name2</h2>
+                <p>A brief description of the project.2</p>
+                <article class="tag-list">
+                    <button class="tag" type="button">
+                        RaspberryPi
+                    </button>
+                </article>
+                <footer class="project-summary-footer">
+                    <p>init date, update date, github link</p>
+                </footer>
+            </article>
+        </section>
+    </main>
     
+    <aside>
+        <p>This is the right aside</p>
+    </aside>
+
+    <footer>
+        <p>2021 apache license 2.0</p>
+    </footer>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
