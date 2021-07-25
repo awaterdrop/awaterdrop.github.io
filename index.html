@@ -31,53 +31,55 @@
     <meta name="author" content="Heo Jinseok">
     <meta name="description" content="awaterdrop의 기술 개발 블로그. 딥러닝, 파이썬, 아두이노, 라즈베리파이 등 다양한 분야에 대해서 개발 블로그를 운영하고 있습니다.">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <title>awaterdrop's Blog</title>
+    <title>awaterdrop's Page</title>
 </head>
 <body>
-    <header class="page-header">
-        <h1>Hello World! This web page is awaterdrop's page.</h1>
+    <header>
+        <a href="/" id="main-page-logo">
+            <span>logo section</span>
+        </a>
+        <nav id="top-nav">
+            <a href="#Intro">Intro</a>
+            <a href="#Blog">Blog</a>
+            <a href="#ContactMe">Contact Me</a>
+        </nav>
     </header>
-
-    <aside>
-        <p>This is the left aside</p>
-    </aside>
+    
 
     <main>
-        <section class="project-summary-list">
-            <article class="project-summary">
-                <h2>Project Name</h2>
-                <p>A brief description of the project.</p>
-                <article class="tag-list">
-                    <button class="tag" type="button">
-                        Arduino
-                    </button>
-                </article>
-                <footer class="project-summary-footer">
-                    <p>init date, update date, github link</p>
-                </footer>
-            </article>
+        <section id="Intro">
+            <h2>Intro</h2>
+            <p>Hello! This page is the portfolio page for awaterdrop.</p>
+            <p>Unfortunately, it is currently in development.</p>
+            <p>If you would like to visit the GitHub blog, please visit the GitHub blog via the link in the blog section.</p>
+            <p>Have a bug-free day today!</p>
+        </section>
 
-            <article class="project-summary">
-                <h2>Project Name2</h2>
-                <p>A brief description of the project.2</p>
-                <article class="tag-list">
-                    <button class="tag" type="button">
-                        RaspberryPi
-                    </button>
-                </article>
-                <footer class="project-summary-footer">
-                    <p>init date, update date, github link</p>
-                </footer>
-            </article>
+        <section id="Portfolio">
+            <h2>Portfolio</h2>
+            <p>This is a Portfolio section.</p>
+        </section>
+
+        <section id="Blog">
+            <h2>Blog</h2>
+            <p>Visit my
+                <a href="/blog/">Github Blog</a>!
+            </p>  
+        </section>
+
+        <section id="ContactMe">
+            <h2>ContactMe</h2>
+            <p>If you would like to contact me, please do one of the following:</p>
         </section>
     </main>
-    
-    <aside>
-        <p>This is the right aside</p>
-    </aside>
 
     <footer>
-        <p>2021 apache license 2.0</p>
+        <p>Copyright 2021. Heo Jinseok. All rights reserved.<br>
+            This theme is licensed under the 
+            <a href="https://github.com/awaterdrop/awaterdrop.github.io/blob/main/LICENSE">MIT license</a>.
+            If you want to use this theme, visit my 
+            <a href="https://github.com/awaterdrop">GitHub</a>.
+        </p>
     </footer>
 
     <script src="scripts/main.js"></script>
