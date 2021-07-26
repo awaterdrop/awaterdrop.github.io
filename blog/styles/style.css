@@ -26,51 +26,73 @@ body{
     margin: 0;
 }
 
-main{
-
-    text-align: center;
-    position: absolute;
-    display: inline-block;
-    margin-left: 325px;
-    padding-right: 100px;
-}
-
-.page-header{
-    text-align: center;
-}
 
 .left-nav{
-    position: absolute;
-    
     left: 0px;
-    width: 325px;
-    height: 100vh;
-    margin-right: 10px;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    position: fixed;
     background-color: gray;
     text-align: center;
 }
 
 .right-aside{
-    position: fixed;
     right: 0px;
-    width: 100px;
-    height: 100vh;
+    top: 0px;
+    width: 250px;
+    height: 100%;
+    position: fixed;
     background-color: whitesmoke;
 }
 
-.project-summary-list{
+
+main{
     text-align: center;
+    margin-left: 310px;
+    margin-right: 260px;
 }
 
-.project-summary{
-    font-size: medium;
-    background-color: gray;
+    .page-header{
+        text-align: center;
+    }
+
+    .project-summary{
+        margin: 10px;
+        font-size: medium;
+        background-color: gray;
+    }
+
+    .page-footer{
+        text-align: center;
+        font-size: small;
+        padding: 0.1em;
+        background-color: #CFD8DC;
+    }
+
+/*Tablet*/
+@media screen and (max-width: 1023px){
+    .right-aside {
+        display: none;
+    }
+
+    main {
+        margin-right: 10px;
+    }
 }
 
-.page-footer{
-    width: 100%;
-    text-align: center;
-    font-size: small;
-    padding: 0.1em;
-    background-color: #CFD8DC;
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    .left-nav {
+        width: 100%;
+        height: 45px;
+    }
+
+    .right-aside {
+        display: none;
+    }
+
+    main{
+        margin: 55px 0px 0px; /*top (right, left) bottom*/
+    }
 }
