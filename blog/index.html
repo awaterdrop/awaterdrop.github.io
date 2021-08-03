@@ -44,31 +44,7 @@
             <h1>Hello World! This web page is awaterdrop's blog.</h1>
         </header>
 
-        <article class="project-summary">
-            <h2>Project Name</h2>
-            <p>A brief description of the project.</p>
-            <article class="tag-list">
-                <button class="tag" type="button">
-                    Arduino
-                </button>
-            </article>
-            <footer class="project-summary-footer">
-                <p>init date, update date, github link</p>
-            </footer>
-        </article>
-
-        <article class="project-summary">
-            <h2>Project Name2</h2>
-            <p>A brief description of the project.2</p>
-            <article class="tag-list">
-                <button class="tag" type="button">
-                    RaspberryPi
-                </button>
-            </article>
-            <footer class="project-summary-footer">
-                <p>init date, update date, github link</p>
-            </footer>
-        </article>
+        <section include-html="category/list.html"></section>
 
         <footer class="page-footer">
             <p>Copyright 2021. Heo Jinseok. All rights reserved.<br>
@@ -84,6 +60,7 @@
         <p>This is AdSense part.</p>
     </aside>
 
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js">
+    </script>
 </body>
 </html>
