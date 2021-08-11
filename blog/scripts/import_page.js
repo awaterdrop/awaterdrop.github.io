@@ -49,3 +49,5 @@ function includeHTML() {
       }
     }
   }
+
+export {includeHTML};
